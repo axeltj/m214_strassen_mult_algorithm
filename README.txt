@@ -4,7 +4,6 @@ Testing the effectiveness of the strassen algorithm compared to the naive method
 FILES:
 strassen.m : Strassen algorithm (already tested for correctness)
 check.m : checks if the strassen algorithm is correct for random matrices
-strassen.cpp : Strassen & Naive algorithm in C++ (throws bad::alloc, because PC would just go out of memory :( So don't use this.)
 plotmatnaive.m : Standalone script to plot ONLY naive and Matlab multiplication timings.
 plotstrassen.m : Script to plot ONLY strassen algorithm timings. Requires strassen.m
 
